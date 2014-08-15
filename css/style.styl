@@ -1,0 +1,45 @@
+@import 'reset.css'
+
+html
+  text-align: center
+  font-family: Lato, sans-serif
+  line-height: 1.5
+.masthead
+  background: #fa4454
+  color: darken(#fa4454, 80%)
+  padding: 3em
+  margin-bottom: 3em
+  p
+    margin-bottom: 0
+h1
+  font-size: 3em
+  margin: 0 0 .25em
+h2
+  margin: 0 0 1em
+p
+  margin-bottom: 1em
+.demo
+  margin: 0 1.5em 1.5em
+  font-size: .25em
+
+
+// Grid
+[grid]
+  max-width: 1000px
+  margin: auto
+  *
+    background: rgba(black, 5%)
+[row], [desktop]
+  display: flex
+  flex: 1
+  justify-content: space-between
+[desktop]
+  overflow: hidden
+  width: 100%
+  padding: 1em 0
+  margin-bottom: 1em
+
+[row]
+  &:last-child
+    [desktop]
+      margin-bottom: 0

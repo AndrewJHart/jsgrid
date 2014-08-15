@@ -1,0 +1,60 @@
+@import 'reset.css';
+html {
+  text-align: center;
+  font-family: Lato, sans-serif;
+  line-height: 1.5;
+}
+.masthead {
+  background: #fa4454;
+  color: #3e0207;
+  padding: 3em;
+  margin-bottom: 3em;
+}
+.masthead p {
+  margin-bottom: 0;
+}
+h1 {
+  font-size: 3em;
+  margin: 0 0 0.25em;
+}
+h2 {
+  margin: 0 0 1em;
+}
+p {
+  margin-bottom: 1em;
+}
+.demo {
+  margin: 0 1.5em 1.5em;
+  font-size: 0.25em;
+}
+[grid] {
+  max-width: 1000px;
+  margin: auto;
+}
+[grid] * {
+  background: rgba(0,0,0,0.05);
+}
+[row],
+[desktop] {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+[desktop] {
+  overflow: hidden;
+  width: 100%;
+  padding: 1em 0;
+  margin-bottom: 1em;
+}
+[row]:last-child [desktop] {
+  margin-bottom: 0;
+}
