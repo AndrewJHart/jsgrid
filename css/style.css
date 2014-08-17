@@ -24,37 +24,22 @@ p {
   margin-bottom: 1em;
 }
 .demo {
-  margin: 0 1.5em 1.5em;
-  font-size: 0.25em;
-}
-[grid] {
   max-width: 1000px;
   margin: auto;
+  font-size: 0.25em;
+  text-align: left;
 }
-[grid] * {
-  background: rgba(0,0,0,0.05);
+img {
+  max-width: 100%;
+  display: block;
 }
-[row],
-[desktop] {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-[desktop] {
+[oh] {
   overflow: hidden;
-  width: 100%;
-  padding: 1em 0;
-  margin-bottom: 1em;
+  background: #d5f8f5;
 }
-[row]:last-child [desktop] {
-  margin-bottom: 0;
+[nm] {
+  overflow: hidden;
+}
+[d] {
+  float: left;
 }
